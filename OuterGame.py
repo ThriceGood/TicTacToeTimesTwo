@@ -8,6 +8,14 @@ from colorama import Fore, Back, Style
 from random import randint
 
 
+"""
+OuterGame
+---------
+DESC
+
+"""
+
+
 colorama.init()
 
 game1 = InnerGame(55)
