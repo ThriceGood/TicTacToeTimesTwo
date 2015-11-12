@@ -27,23 +27,23 @@ in the 6 position of the outer game. This is where O must take its turn.
 
 
 The same rule applies to the next player. The choice they make determines the next
-players position in the outer game. Below, O choice the 8 position on the inner game
-so the X's next go is in the 8 position on the outer game.
+players position in the outer game. Below, O chose the 8 position on the inner game
+so X's next go is in the 8 position on the outer game.
 
 ![alt tag](https://raw.githubusercontent.com/ThriceGood/TicTacToeTimesTwo/master/images/3.png)
 
 
-The obejct of regular 'TicTacToe' is for a player to take three squares in a row
-to win the game. Each inner game follows these regular Tic Tac Toe rules.
+The object of regular 'TicTacToe' is for a player to take three squares in a row
+to win the game. Each inner game follows these regular TicTacToe rules.
 The object of 'TicTacToeTimesTwo' is similar, only to win the game a player must
-take three of the 'outer game' squares in a row, to take on outer game square a 
+take three of the 'outer game' squares in a row, to take an outer game square a 
 player must win the inner game at that position on the outer game.
 
 ![alt tag](https://raw.githubusercontent.com/ThriceGood/TicTacToeTimesTwo/master/images/4.png)
 
 
 The best strategy is one that manoeuvres your self and your opponent around the outer
-board in a way that enables you to take three inner games in a row. These leads to 
+board in a way that enables you to take three inner games in a row. This leads to 
 very interesting and strategic game play. When the board starts to fill up with taken
 squares, your moves need to be taken with care not to place your opponent into an inner
 game that they could win with one move. The more the board fills, the harder this gets.
@@ -70,4 +70,4 @@ Other Rules
 If a players choice places the next game into an already won game, then the next move
 will be played inside of the current game. If the current game is also taken then a 
 random game will be chosen from the list of unfinished games. This can sometimes lead
-to deadlocks, draws, no winners, sad faces and waste of time! 
+to deadlocks, draws, no winners and sad faces! 
